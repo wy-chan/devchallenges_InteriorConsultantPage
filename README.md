@@ -38,7 +38,7 @@
 
 <img src="images/screenshot.png" alt="screenshot" height="400"> &nbsp; &nbsp; &nbsp; &nbsp;<img src="images/screenshot_mobile.png" alt="screenshot" height="400">
 
-See demo here: https://wy-chan.github.io/devchallenges_myteampage/
+See demo here: https://wy-chan.github.io/devchallenges_InteriorConsultantPage/
 
 I created a page based on the given design. I learnt to create a collapsed navigation on the mobile page.
 
