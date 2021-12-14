@@ -245,6 +245,9 @@ em{
   font-style: normal;
   font-weight: bold;
 }
+.hidden-mobile{
+  visibility: visible;
+}
 
 @media(max-width:1000px){
   nav{
@@ -263,9 +266,10 @@ em{
     background: black;
     margin:0;
     padding:0;
-
-    visibility: hidden;
   }
+   .hidden-mobile{
+  visibility: hidden;
+}
   .menu-btn, .menu-btn-close{
   display: block;
 }
