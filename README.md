@@ -40,12 +40,12 @@
 
 See demo here: https://wy-chan.github.io/devchallenges_myteampage/
 
-I learnt to create a page based on the given design.
+I created a page based on the given design. I learnt to create a collapsed navigation on the mobile page.
 
 ### Built With
 
 - HTML
-- CSS
+- CSS, flexbox
 
 ## Features
 
