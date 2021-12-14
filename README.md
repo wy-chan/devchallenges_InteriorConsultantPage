@@ -36,7 +36,7 @@
 
 ## Overview
 
-<img src="images/screenshot.png" alt="screenshot" height="400"> &nbsp; &nbsp; &nbsp; &nbsp;<img src="images/screenshot_mobile.png" alt="screenshot" height="400">
+<img src="images/screenshot.png" alt="screenshot" height="400"> &nbsp;<img src="images/screenshot_mobile.png" alt="screenshot" height="400"> &nbsp;<img src="images/screenshot_mobile_nav.png" alt="screenshot" height="400">
 
 See demo here: https://wy-chan.github.io/devchallenges_InteriorConsultantPage/
 
