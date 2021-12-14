@@ -48,6 +48,7 @@ I created a page based on the given design. I learnt to create a collapsed navig
 
 - HTML
 - CSS, flexbox
+- JavaScript
 
 ## Features
 
