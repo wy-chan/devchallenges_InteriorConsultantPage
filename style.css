@@ -135,6 +135,10 @@ font-style: normal;
 font-weight: bold;
 font-size: 18px;
 line-height: 22px;
+  border-bottom: 2px solid transparent;
+}
+.read-btn:hover{
+  border-bottom: 2px solid white;
 }
 .text-box{
   width:42.69%;
