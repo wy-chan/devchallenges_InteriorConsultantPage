@@ -6,28 +6,36 @@
     <title>My Team Page</title>
     <link rel="icon" href="images/devchallenges.png" type="image/icon type">
     <link rel="stylesheet" type="text/css" href="style.css">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" >
+    <script src="script.js"></script>
   </head>
   
 <body>
 <header class="page-header">
 <nav id="navbar">
-<button>This Interior</button>
-    <ul>
-     <li><a href="">Home</a></li>
-     <li><a href="">Collection</a></li>
-     <li><a href="">About</a></li>
-     <li><a href="">Contact</a></li>
+<button class="top-button">This Interior</button>
+  
+  <div class="menu">
+  <button class="menu-btn" onClick="openMenu()"><span class="material-icons">menu</span></button>
+    <div class="menu-content">
+    <button class="menu-btn-close" onClick="closeMenu()"><span class="material-icons">close</span></button>
+    <ul class="menu-list">
+     <li class="nav-btn" id="home-btn"><a  href="">Home</a></li>
+     <li class="nav-btn" id="coll-btn"><a  href="">Collection</a></li>
+     <li class="nav-btn" id="about-btn"><a  href="">About</a></li>
+     <li class="nav-btn" id="contact-btn"><ahref="">Contact</a></li>
     </ul>
+  </div>
+</div>
 </nav>
 </header>
 
 <main>
 
 <div class="text-box">
-<h1>Modern interior</h1>
-<p>A full-Service residential & commercial interior design and staging company offering professional organizing & eco-services.</p>
-<a href="">Read more <i class="fas fa-long-arrow-alt-right"></i></a>
+<h1 class="content-title">Modern interior</h1>
+<p class="content-brief">A full-Service residential & commercial interior design and staging company offering professional organizing & eco-services.</p>
+<a class="read-btn" href="">Read more →</a>
 </div>
 
 <div class="img-box">
@@ -40,9 +48,11 @@
 <img src="images/photo2.png"
      alt= "Aliza Webber"
      class="profile-photo">
+<div class="profile-name-title">
 <p class="profile-name">Aliza Webber</p>
 <p class="profile-title">Interior designer</p>
 </div>
+ </div>
 <p  class="profile-text">Designed in 2020 by Aliza Webber</p>
 </div>
 </div>
@@ -53,4 +63,3 @@
 <footer>
 <span>created by <em>wy-chan</em> - devChallenges.io</span>
 </footer>
-</body>
