@@ -251,6 +251,7 @@ em{
 
 @media(max-width:1000px){
   nav{
+  padding-top:19px;
   padding-left: 3.2%;
   padding-right: 3.2%;
   width:93.6%;
