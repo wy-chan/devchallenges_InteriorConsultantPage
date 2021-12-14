@@ -146,6 +146,7 @@ font-style: normal;
 font-weight: bold;
 font-size: 18px;
 line-height: 22px;
+    width:fit-content;
   border-bottom: 2px solid transparent;
 }
 .read-btn:hover{
@@ -303,13 +304,26 @@ em{
      margin-bottom:138px;
     width:93.6%;
   }
-  .text-box{
+   .text-box{
     width: 100%;
     margin-bottom:37px;
+  }
+  .content-title{
+
+font-weight: 500;
+font-size: 36px;
+line-height: 46px;
   }
   .content-brief{
     margin-top:25px;
     margin-bottom:25px;
+  
+font-size: 14px;
+line-height: 17px;
+  }
+  .read-btn{
+font-size: 14px;
+line-height: 17px;
   }
     .img-box{
     width: 100%;
